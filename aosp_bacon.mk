@@ -28,10 +28,11 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_bacon
+PRODUCT_NAME := aosp_bacon
 PRODUCT_DEVICE := bacon
+PRODUCT_BRAND := Android
+PRODUCT_MODEL := AOSP on A0001
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := A0001
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
